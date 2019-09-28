@@ -13,8 +13,8 @@ import AccountPage from './Account';
 import AdminPage from './Admin';
 
 import * as ROUTES from '../constants/routes';
-import { withAuthentication }  from './Session';
-import { AuthUserContext } from './Session';
+import { withAuthentication }  from '../components/Session/index';
+
 
 
 const App = () => (
